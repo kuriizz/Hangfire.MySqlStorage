@@ -1,3 +1,11 @@
+AnrizaKuriz.Hangfire.MySqlStorage is a MySQL storage provider implementation for Hangfire, enabling fire-and-forget, delayed, and recurring background jobs in .NET. Designed to be reliable and scalable for multi-server setups, CPU/I/O intensive workloads, and both long-running and short-running jobs.
+
+Forked from Hangfire.MySqlStorage, this package focuses on keeping the dependency stack modern and compatible with current .NET ecosystems.
+
+Changes in this fork:
+- Updated Dapper to a newer version.
+- Removed deprecated `System.Data.MySqlClient` dependency (as a consequence of the Dapper update).
+
 # Hangfire MySql Storage Implementation
 [![NuGet version](https://badge.fury.io/nu/Hangfire.MySqlStorage.svg)](https://www.nuget.org/packages/Hangfire.MySqlStorage)
 
