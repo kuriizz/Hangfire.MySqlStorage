@@ -3,11 +3,12 @@
         <TargetFrameworks>netstandard2.0;net461;</TargetFrameworks>
         <Description>Hangfire MySql Storage</Description>
         <PackageId>AnrizaKuriz.Hangfire.MySqlStorage</PackageId>
+		<Version>1.0.1</Version>
         <Product>Hangfire MySql Storage</Product>
         <Company />
-        <Authors>Arnoldas Gudas</Authors>
+        <Authors>Anriza Kuriz</Authors>
         <PackageLicenseUrl>https://github.com/arnoldasgudas/Hangfire.MySqlStorage/blob/master/License.md</PackageLicenseUrl>
-        <PackageProjectUrl>https://github.com/arnoldasgudas/Hangfire.MySqlStorage</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/anrizakuriz/Hangfire.MySqlStorage</PackageProjectUrl>
         <Copyright>Copyright 2015</Copyright>
         <PackageTags>Hangfire MySql Hangfire.MySql</PackageTags>
     </PropertyGroup>
