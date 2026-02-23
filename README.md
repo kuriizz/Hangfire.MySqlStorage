@@ -4,6 +4,7 @@ Forked from Hangfire.MySqlStorage, this package focuses on keeping the dependenc
 
 Changes in this fork:
 - Updated Dapper to a newer version.
+- Updated Newtonsoft.Json to a newer version.
 - Removed deprecated `System.Data.MySqlClient` dependency (as a consequence of the Dapper update).
 
 # Hangfire MySql Storage Implementation
