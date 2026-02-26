@@ -3,26 +3,28 @@
         <TargetFrameworks>netstandard2.0;net461;</TargetFrameworks>
         <Description>Hangfire MySql Storage</Description>
         <PackageId>AnrizaKuriz.Hangfire.MySqlStorage</PackageId>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
         <Product>Hangfire MySql Storage</Product>
         <Company />
         <Authors>Anriza Kuriz</Authors>
-        <PackageLicenseUrl>https://github.com/arnoldasgudas/Hangfire.MySqlStorage/blob/master/License.md</PackageLicenseUrl>
-        <PackageProjectUrl>https://github.com/anrizakuriz/Hangfire.MySqlStorage</PackageProjectUrl>
-        <Copyright>Copyright 2015</Copyright>
+		<PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/kuriizz/Hangfire.MySqlStorage</PackageProjectUrl>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+        <Copyright>Copyright 2026</Copyright>
         <PackageTags>Hangfire MySql Hangfire.MySql</PackageTags>
     </PropertyGroup>
     <ItemGroup>
         <None Remove="Install.sql" />
-    </ItemGroup>
-    <ItemGroup>
-        <EmbeddedResource Include="Install.sql" />
-    </ItemGroup>
-    <ItemGroup>
-        <PackageReference Include="Microsoft.CSharp" Version="4.4.1" />
-        <PackageReference Include="MySqlConnector" Version="1.0.0" />
-        <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
-        <PackageReference Include="Dapper" Version="2.1.66" />
-        <PackageReference Include="Hangfire.Core" Version="1.6.21" />
+		<None Include="docs\readme.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="Install.sql" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.CSharp" Version="4.4.1" />
+		<PackageReference Include="MySqlConnector" Version="1.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+		<PackageReference Include="Dapper" Version="2.1.66" />
+		<PackageReference Include="Hangfire.Core" Version="1.6.21" />
     </ItemGroup>
 </Project>
